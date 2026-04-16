@@ -9,18 +9,39 @@
 <body class="font-sans text-gray-800">
 
 <!-- Navbar -->
-<header class="bg-white shadow sticky top-0 z-50">
-  <nav class="max-w-7xl mx-auto flex justify-between items-center p-4">
-    <h1 class="font-bold text-xl">Tariqul Tuhin</h1>
-    <ul class="flex gap-6 text-sm">
-      <li><a href="#hero">Home</a></li>
-      <li><a href="#services">What I Do</a></li>
-      <li><a href="#team">People</a></li>
-      <li><a href="#pricing">Plans</a></li>
-      <li><a href="#faq">Questions</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+<header class="bg-white shadow-md">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <div class="flex justify-between items-center h-16">
+      
+      <!-- Logo -->
+      <div class="text-xl font-bold text-blue-600">
+        Tariqul Tuhin
+      </div>
+
+      <!-- Desktop Menu -->
+      <nav class="hidden md:flex space-x-8 text-gray-700 font-medium">
+        <a href="#" class="hover:text-blue-600">Home</a>
+        <a href="#" class="hover:text-blue-600">Services</a>
+        <a href="#" class="hover:text-blue-600">About</a>
+        <a href="#" class="hover:text-blue-600">Contact</a>
+      </nav>
+
+      <!-- Mobile Button -->
+      <button id="menu-btn" class="md:hidden focus:outline-none">
+        ☰
+      </button>
+
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden px-4 pb-4 space-y-2 bg-white">
+    <a href="#" class="block py-2 text-gray-700 hover:text-blue-600">Home</a>
+    <a href="#" class="block py-2 text-gray-700 hover:text-blue-600">Services</a>
+    <a href="#" class="block py-2 text-gray-700 hover:text-blue-600">About</a>
+    <a href="#" class="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
+  </div>
 </header>
 
 <!-- Hero -->
@@ -95,13 +116,28 @@
         <h3 class="font-bold">Tuhin Kabir</h3>
         <p class="text-gray-500 text-sm">Full Stack Developer</p>
       </div>
+      <div class="bg-white shadow rounded p-6">
+        <div class="w-24 h-24 mx-auto bg-gray-300 rounded-full mb-4"></div>
+        <h3 class="font-bold">Tuhin Kabir</h3>
+        <p class="text-gray-500 text-sm">Full Stack Developer</p>
+      </div>
 
       <div class="bg-white shadow rounded p-6">
         <div class="w-24 h-24 mx-auto bg-gray-300 rounded-full mb-4"></div>
         <h3 class="font-bold">Creative Partner</h3>
         <p class="text-gray-500 text-sm">UI/UX Designer</p>
       </div>
+      <div class="bg-white shadow rounded p-6">
+        <div class="w-24 h-24 mx-auto bg-gray-300 rounded-full mb-4"></div>
+        <h3 class="font-bold">Creative Partner</h3>
+        <p class="text-gray-500 text-sm">UI/UX Designer</p>
+      </div>
 
+      <div class="bg-white shadow rounded p-6">
+        <div class="w-24 h-24 mx-auto bg-gray-300 rounded-full mb-4"></div>
+        <h3 class="font-bold">Support</h3>
+        <p class="text-gray-500 text-sm">Client Communication</p>
+      </div>
       <div class="bg-white shadow rounded p-6">
         <div class="w-24 h-24 mx-auto bg-gray-300 rounded-full mb-4"></div>
         <h3 class="font-bold">Support</h3>
