@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Humanized Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
+
+<!-- Navbar -->
+<header class="bg-white shadow sticky top-0 z-50">
+  <nav class="max-w-7xl mx-auto flex justify-between items-center p-4">
+    <h1 class="font-bold text-xl">Tuhin Dev</h1>
+    <ul class="flex gap-6 text-sm">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#services">What I Do</a></li>
+      <li><a href="#team">People</a></li>
+      <li><a href="#pricing">Plans</a></li>
+      <li><a href="#faq">Questions</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section id="hero" class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center py-20 px-4">
+  <div>
+    <h2 class="text-4xl font-bold mb-4 leading-tight">
+      I build websites that actually help your business grow
+    </h2>
+    <p class="text-gray-600 mb-6">
+      No complicated jargon. Just clean, fast, and modern websites that look good and work even better.
+    </p>
+    <a href="#contact" class="bg-blue-600 text-white px-6 py-2 rounded">
+      Let’s Talk
+    </a>
+  </div>
+  <div class="bg-gray-200 h-64 rounded flex items-center justify-center">
+    <img src="./images/webdev.jpg" alt="">
+  </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="bg-gray-50 py-16 px-4">
+  <div class="max-w-6xl mx-auto space-y-6">
+    <h2 class="text-3xl font-bold text-center mb-4">How I can help you</h2>
+    <p class="text-center text-gray-600 mb-10">
+      Whether you're starting from scratch or improving an existing site — I’ve got you covered.
+    </p>
+
+    <div class="flex flex-col md:flex-row gap-6 bg-white p-6 shadow rounded">
+      <div class="text-4xl">💻</div>
+      <div>
+        <h3 class="font-bold">Website Development</h3>
+        <p class="text-gray-600">
+          I create fast, responsive websites using modern technologies like React and Node.
+        </p>
+      </div>
+    </div>
+
+    <div class="flex flex-col md:flex-row gap-6 bg-white p-6 shadow rounded">
+      <div class="text-4xl">🎨</div>
+      <div>
+        <h3 class="font-bold">Design That Feels Right</h3>
+        <p class="text-gray-600">
+          Clean, simple designs that your users will actually enjoy using.
+        </p>
+      </div>
+    </div>
+
+    <div class="flex flex-col md:flex-row gap-6 bg-white p-6 shadow rounded">
+      <div class="text-4xl">🚀</div>
+      <div>
+        <h3 class="font-bold">Performance & SEO</h3>
+        <p class="text-gray-600">
+          Your site won’t just look good — it’ll load fast and rank better too.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Team -->
+<section id="team" class="py-16 px-4">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-4">Who you’ll be working with</h2>
+    <p class="text-gray-600 mb-10">
+      Real people. No agencies, no confusion.
+    </p>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white shadow rounded p-6">
+        <div class="w-24 h-24 mx-auto bg-gray-300 rounded-full mb-4"></div>
+        <h3 class="font-bold">Tuhin Kabir</h3>
+        <p class="text-gray-500 text-sm">Full Stack Developer</p>
+      </div>
+
+      <div class="bg-white shadow rounded p-6">
+        <div class="w-24 h-24 mx-auto bg-gray-300 rounded-full mb-4"></div>
+        <h3 class="font-bold">Creative Partner</h3>
+        <p class="text-gray-500 text-sm">UI/UX Designer</p>
+      </div>
+
+      <div class="bg-white shadow rounded p-6">
+        <div class="w-24 h-24 mx-auto bg-gray-300 rounded-full mb-4"></div>
+        <h3 class="font-bold">Support</h3>
+        <p class="text-gray-500 text-sm">Client Communication</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing -->
+<section id="pricing" class="bg-gray-50 py-16 px-4">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-4">Simple, transparent pricing</h2>
+    <p class="text-gray-600 mb-10">No hidden costs. Choose what fits you best.</p>
+
+    <div class="grid md:grid-cols-3 gap-6">
+
+      <div class="border p-6 rounded">
+        <h3 class="font-bold mb-2">Starter</h3>
+        <p class="text-2xl">$10</p>
+        <p class="text-sm text-gray-500">Good for small projects</p>
+      </div>
+
+      <div class="border-2 border-blue-600 p-8 rounded shadow-lg scale-105">
+        <h3 class="font-bold text-blue-600 mb-2">Most Popular</h3>
+        <p class="text-3xl font-bold">$20</p>
+        <p class="text-sm text-gray-500">Best for growing businesses</p>
+      </div>
+
+      <div class="border p-6 rounded">
+        <h3 class="font-bold mb-2">Advanced</h3>
+        <p class="text-2xl">$30</p>
+        <p class="text-sm text-gray-500">For bigger ideas</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="py-16 px-4">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-10">Things people usually ask</h2>
+
+    <div class="space-y-4">
+      <div class="border p-4 rounded">
+        <h4 class="font-semibold">How long does a website take?</h4>
+        <p class="text-gray-600 text-sm">Usually 3–7 days depending on the project.</p>
+      </div>
+
+      <div class="border p-4 rounded">
+        <h4 class="font-semibold">Can I request changes later?</h4>
+        <p class="text-gray-600 text-sm">Of course. I offer revisions to make sure you're happy.</p>
+      </div>
+
+      <div class="border p-4 rounded">
+        <h4 class="font-semibold">Do you use modern technologies?</h4>
+        <p class="text-gray-600 text-sm">Yes — React, Node, Firebase, and more.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="bg-gray-100 py-16 px-4">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
+
+    <div>
+      <h2 class="text-3xl font-bold mb-4">Let’s build something together</h2>
+      <p class="text-gray-600">
+        Tell me a bit about your project and I’ll get back to you soon.
+      </p>
+    </div>
+
+    <form class="space-y-4">
+      <input type="text" placeholder="Your name" class="w-full p-3 border rounded" required>
+      <input type="email" placeholder="Your email" class="w-full p-3 border rounded" required>
+      <textarea placeholder="What do you want to build?" class="w-full p-3 border rounded" required></textarea>
+      <button class="bg-blue-600 text-white px-6 py-2 rounded w-full">
+        Send Message
+      </button>
+    </form>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black text-white text-center p-4">
+  <p>Made with care by Tuhin © 2026</p>
+</footer>
+
+</body>
+</html>
